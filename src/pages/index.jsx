@@ -14,6 +14,7 @@ export default function Home(){
             <Navigator route="/jsx" color="yellow" text="JSX" />
             <Navigator route="/navigation/" color="brown" text="Navigation #01"/>
             <Navigator route="/client/SP/" color="blue" text="Navigation #02"/>
+            <Navigator route="/state" color="pink" text="Componente com Estado"/>
         </div>
     )
 }
