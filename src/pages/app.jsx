@@ -1,10 +1,11 @@
 import Header from "../components/Header";
+import Layout from "../components/Layout";
 
 export default function App(){
     return(
-        <div>
-            <Header title="Aprendendo Next"/>
-
-        </div>
+        <Layout>
+            <Header title="Next.JS & React" />
+            <Header title="Aprendendo Next Na Pratica"/>
+        </Layout>
     )
 }
