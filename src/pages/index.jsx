@@ -1,7 +1,11 @@
+import Link from "next/link"
+
 export default function Home(){
     return (
         <div>
-            <h1>Fundamentos do Next</h1>
+            <Link href="/estiloso">
+                estilo
+            </Link>
         </div>
     )
 }
