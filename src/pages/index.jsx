@@ -1,4 +1,3 @@
-import Link from "next/link"
 import Navigator from "../components/Navigator"
 
 export default function Home(){
@@ -13,7 +12,8 @@ export default function Home(){
             <Navigator route="/estiloso" color="green" text="Estiloso"/>
             <Navigator route="/app" color="red" text="App" />
             <Navigator route="/jsx" color="yellow" text="JSX" />
-            <Navigator route="/navigation/" color="brown" text="Navigation"/>
+            <Navigator route="/navigation/" color="brown" text="Navigation #01"/>
+            <Navigator route="/client/SP/" color="blue" text="Navigation #02"/>
         </div>
     )
 }
