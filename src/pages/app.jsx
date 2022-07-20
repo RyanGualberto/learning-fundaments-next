@@ -2,6 +2,9 @@ import Header from "../components/Header";
 
 export default function App(){
     return(
-        <Header/>
+        <div>
+            <Header title="Aprendendo Next"/>
+
+        </div>
     )
 }
