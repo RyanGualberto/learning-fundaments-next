@@ -1,11 +1,11 @@
 import styles from '../styles/Estiloso.module.css'
-import Link from 'next/link'
+import Layout from '../components/Layout'
 export default function Estiloso(){
     return (
-        <div className={styles.roxo}>
-            <Link href="/">
-                Voltar
-            </Link>
-        </div>
+            <Layout title="Exemplo Com CSS Modularizado">
+                <div className={styles.roxo}>
+                    <h1>Estilo usando CSS Modular</h1>
+                </div>
+            </Layout>
     )
 }
