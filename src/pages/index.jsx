@@ -13,7 +13,7 @@ export default function Home(){
             <Navigator route="/estiloso" color="green" text="Estiloso"/>
             <Navigator route="/app" color="red" text="App" />
             <Navigator route="/jsx" color="yellow" text="JSX" />
-
+            <Navigator route="/navigation/" color="brown" text="Navigation"/>
         </div>
     )
 }
