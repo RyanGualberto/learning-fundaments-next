@@ -3,7 +3,7 @@ import styles from "../styles/Navigator.module.css"
 
 export default function Navigator(props){
     return (
-        <Link href={props.route}>
+        <Link href={props.route} passHref>
             <div 
             className={styles.navigator}
             style={{
